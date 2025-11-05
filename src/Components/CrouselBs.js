@@ -4,7 +4,7 @@ import Img1 from './images/1.png'
 import Img2 from './images/2.png'
 import Img3 from './images/3.png'
 import Img4 from './images/4.png'
-import Img5 from './images/3.png'
+import Img5 from './images/5.png'
 
 {/* 
   Carousel
@@ -55,8 +55,8 @@ function CrouselBs(){
                                 </Carousel.Caption>
                           </Carousel.Item>
                           <Carousel.Item interval={2000}>
+                             <img src={Img5} className="d-block w-100"></img>
                              <Carousel.Caption>
-                            <img src={Img5} className="d-block w-100"></img>
                                 <h2>Five Image</h2>
                                 <p>Check Description</p>
                             </Carousel.Caption>
